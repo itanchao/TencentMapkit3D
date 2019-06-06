@@ -11,3 +11,6 @@ it, simply add the following line to your Podfile:
 ## Author
 
 itanchao, itanchao@gmail.com
+
+## 鸣谢
+https://blog.dianqk.org/2017/05/01/dev-on-pod/
