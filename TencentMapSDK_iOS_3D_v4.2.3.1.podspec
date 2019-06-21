@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
     s.libraries  = 'z','c++','sqlite3'
     s.static_framework = true
     s.vendored_frameworks = '*/QMapKit.framework'
+    s.resources = '*/QMapKit.framework/*.bundle'
     s.xcconfig            = { "LIBRARY_SEARCH_PATHS" => "\"$(PODS_ROOT)/TencentMapkit3D/**\"" }
 end
